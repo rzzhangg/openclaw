@@ -9,10 +9,7 @@
       "ZSH_IN_DOCKER_VERSION": "1.2.0"
     }
   },
-  "runArgs": [
-    "--cap-add=NET_ADMIN",
-    "--cap-add=NET_RAW"
-  ],
+  "runArgs": ["--cap-add=NET_ADMIN", "--cap-add=NET_RAW"],
   "features": {
     "ghcr.io/devcontainers/features/copilot-cli:1": {}
   },
@@ -24,7 +21,8 @@
         "anthropic.claude-code",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "eamodio.gitlens"
+        "eamodio.gitlens",
+        "bierner.markdown-mermaid"
       ],
       "settings": {
         "editor.formatOnSave": true,
